@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 60px;
+        background: #413f4d;
+        color: #ad5f2b;
+      }
+      h1 {
+        font-size: 50px;
+        text-shadow: 5px 3px black;
+      }
+      button {
+        font-size: 30px;
+        background: #322f44;
+        box-shadow: 2px 2px 2px 2px #201e30;
+        border-radius: 5px;
+        cursor: pointer;
+        color: #ad5f2b;
+        transition: background 0.25;
+      }
+      .button:hover {
+        background: #37334d;
+        transform: scale(1.01);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Counter App – JavaScript Practice Project</h1>
+    <span id="input">0</span>
+    <span>
+      <button class="button" onclick="decrease10()">-10</button>
+      <button class="button" onclick="decrease()">decrease</button>
+      <button class="button" onclick="reset()">reset</button>
+      <button class="button" onclick="increase()">increase</button>
+      <button class="button" onclick="increase10()">+10</button>
+      <script src="counter.js"></script>
+    </span>
+  </body>
+</html>
