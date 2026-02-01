@@ -7,15 +7,19 @@
     <link rel="stylesheet" href="counter.css" />
   </head>
   <body>
-    <h1>Counter App – JavaScript Practice Project</h1>
-    <span id="input">0</span>
-    <span>
-      <button class="button" onclick="decrease10()">-10</button>
-      <button class="button" onclick="decrease()">decrease</button>
-      <button class="button" onclick="reset()">reset</button>
-      <button class="button" onclick="increase()">increase</button>
-      <button class="button" onclick="increase10()">+10</button>
-      <script src="counter.js"></script>
-    </span>
+    <div class="container">
+      <h1>Counter App – JavaScript Practice Project</h1>
+      <div class="counter">
+        <div id="input">0</div>
+        <div class="controls">
+          <button class="button" onclick="decrease10()">-10</button>
+          <button class="button" onclick="decrease()">decrease</button>
+          <button class="button" onclick="reset()">reset</button>
+          <button class="button" onclick="increase()">increase</button>
+          <button class="button" onclick="increase10()">+10</button>
+        </div>
+      </div>
+    </div>
+    <script src="counter.js"></script>
   </body>
 </html>
