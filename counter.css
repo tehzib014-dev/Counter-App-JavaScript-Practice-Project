@@ -50,7 +50,7 @@ button {
 }
 
 /* Responsive behavior */
-@media (max-width: 720px) {
+@media (max-width: 730px) {
   .counter {
     flex-direction: column;
     justify-items: center;
